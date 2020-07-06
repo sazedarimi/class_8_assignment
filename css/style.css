@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.nav-link{
+    padding-left: 15px;
+    color: #968c8c !important;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    border: 2px solid #ffffff00 ;
+    border-radius: 30px;
+    
+}
+nav ul li a:hover{
+    border: 2px solid #ffffff;
+    background-color: #0cd2c9e6 ;
+}
+nav ul li:last-child a{
+    border: 2px solid #ffffff;
+    background-color: #0cd2c9e6;
+}
+header{
+    background-image: url(../img/banner.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+}
+.banner{
+    padding: 150px 0;
+}
+.banner h1{
+    font-weight: 800;
+}
+.banner p{
+    font-size: 44px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+}
+.banner a
+{
+color: #424242;
+font-weight: 400;
+font-size: 16px;
+background-color: #0cd2c9e6;
+border-radius: 30px;
+padding: 8px 40px;
+margin-top: 30px;
+display: inline-block;
+}
+.banner ul li a{
+    list-style-type: none;
+}
+.about .col-lg-6{
+    padding: 0;
+    margin: 0;
+}
+.item{
+    padding: 100px;
+    padding-left: 130px;
+    text-align: left;
+}
+.item h5{
+    font-weight: 600;
+}
+.btn0{
+border-radius: 50px;
+background-color: #0cd2c9e6;
+color: #326767;
+font-weight: 600;
+}
+img{
+    max-width: 100%;
+}
+.details{
+    justify-content: center;
+    padding: 100px ;
+    background-color: #fff;
+}
+.details h2{
+    font-weight: 600;
+}
+.details p{
+    color: #827b7beb;
+}
+.item p{
+    padding-bottom: 10px;
+    color: #827b7beb;
+}
+#details .button{
+    display: block;
+    padding: 40px;
+    padding-left: 20px;
+    text-align: center;
+}
+.button *::before, *::after {
+    padding-right: 5px;
+    box-sizing: border-box;}
+.btn1{
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    background-color: #0cd2c9e6;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    line-height: 2;
+    color: #326767;
+    border: 2px solid #0cd2c9e6;
+}
+ .btn2{
+     margin-left: 15px;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    line-height: 2;
+    color: #326767;
+    border: 2px solid #0cd2c9e6;
+}
+.btn2 a{
+    width: 225px;
+    padding: 30px 30px;
+}
+.location{
+    background-color: #fff;
+    padding: 50px 0;
+}
+.location h4{
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.card{
+    bottom: 1px rgba(115, 93, 93, 0.125);
+    padding: 20px 13px;
+    box-shadow: 2px 6px 7px #927d7d38
+    
+
+}
+
+.contact {
+    padding: 100px 0;
+    background-color: #100c0ceb;
+}
+.contact p{
+    line-height: 1.5em;
+    font-size: 18px;
+}
+.contact2{
+    background-color: #100c0ceb;
+    padding: 20px 0;
+    padding-bottom: 70px;
+}
+.contact2 a{
+    margin-left: 0;
+}
+.para{
+    padding: 20px 15px;
+}
+small, .small {
+    font-size: 80%;
+    font-weight: 600;
+}
+.para h4{
+    padding-top: 10px;
+    font-weight: 600;
+    padding-bottom: 7px;
+
+}
+.para p{
+    color: #827b7beb;
+}
+.para1{
+    height: 200px;
+}
+footer{
+    padding: 100px 0;
+    color: #fff;
+    background-color: #191010c9;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fdfeff;
+    background-color: #231f1f;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.arrow i{
+    text-align: left;
+    color: gray;
+    font-size: 16px;
+    border: 1px solid #4ac4d8e0;
+    padding: 10px 12px;
+    border-radius: 30px;
+    transition: .2s ease;
+}
+footer ul li{
+    padding: 7px 5px;
+
+    list-style-type: none;
+}
+footer .col-md-3{
+    padding-bottom: 30px;
+}
+.link ul li:hover{
+    color: #0cd2c9e6 ;
+
+}
+.social{
+    padding: 10px 0;
+    border-top: 1px solid rgb(236, 226, 226);
+}
+.social ul{
+    padding-left: 100px;
+}
+.social ul li a{
+
+    color: #fff;
+    line-height: 1em;
+    font-size: 20px;
+
+}
